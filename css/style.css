@@ -1,0 +1,449 @@
+html {
+    scroll-behavior: smooth;
+    font-family: lato,sans-serif;
+}
+/*
+Navbar-------------------
+*/
+@media only screen and (max-width: 993px) {
+    nav {
+        direction: rtl;
+    }
+    .carousel-item > img {
+        height: 45.9rem;
+    }
+    .carousel-caption {
+        display: block;
+    }
+}
+.nav-link {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: lato,sans-serif;
+}
+
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(68, 177, 132);
+    position: relative;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\'0 0 32 32\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath stroke=\'rgb(68, 177, 132)\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' d=\'M4 8h24M4 16h24M4 24h24\'/%3E%3C/svg%3E');
+}
+.btn {
+    border-radius: 30px;
+    font-weight: normal ;
+    font-family: lato,sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding: 7px;
+    width: 170px;
+    transition: all .5s;
+    cursor: pointer;
+    border-width: .5px;
+    border-color: rgb(68, 177, 132);
+}
+/*
+    Scroll Bar -----------------
+    */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #ada8a8;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(68, 177, 132);
+}
+/* HOme
+    -------------------------------------------------- */
+.carousel {
+    margin-bottom: 0rem;
+    position: relative;
+}
+
+.carousel-item {
+    height: 45.9rem;
+}
+.carousel-item > img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-caption {
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+}
+
+.carousel-caption h1 {
+    position: relative;
+    padding: 0;
+    z-index: 1;
+    color: black;
+    bottom: 17rem;
+    font-size: 5em;
+    font-weight: 500;
+    font-family: lato,sans-serif;
+}
+.carousel-caption h3 {
+    position: relative;
+    font-weight: 800;
+    padding: 0;
+    font-size: 1.5em;
+    z-index: 1;
+    bottom: 9rem;
+    color: black;
+    font-family: lato,sans-serif;
+}
+#homebtn {
+    position: relative;
+    bottom: 15rem;
+    font-weight: bolder;
+    border-width: 3px;
+    border-color: black;
+}
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #0dcda5;
+    border-color: rgb(68, 177, 132);
+    font-family: lato,sans-serif;
+}
+/*
+   About--------------------------
+  */
+#about {
+    background: url('/Najaf Patient Access Project/images/about-bg.jpg') no-repeat top center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.profile img, .profile figcaption {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1em;
+}
+.profile img {
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    margin-right: 1em;
+}
+.profile figcaption h3 {
+    margin-top: 0;
+}
+
+#about h6 {
+    color: #858585;
+    margin: 0;
+}
+/*---------------------------------------
+      TEAM MEMBERS
+  -----------------------------------------*/
+
+.team-thumb {
+    background-color: #f9f9f9;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    cursor: default;
+}
+
+.team-info {
+    text-align: center;
+    padding: 20px 30px 0 30px;
+}
+
+
+.team-contact-info {
+    border-top: 1px solid #e9e9e9;
+    padding-top: 1.2em;
+    margin-top: 1.5em;
+}
+
+.team-contact-info .fa {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.team-contact-info p {
+    margin-bottom: 2px;
+}
+
+.team-contact-info a {
+    color: #757575;
+}
+
+
+.login-box {
+    font-family: lato,sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .801);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label, .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #1fc0a5;
+    font-size: 15px;
+}
+
+/* Return to top */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: white; /* Set a background color */
+    box-sizing: border-box;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .342);
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #1fc0a5; /* Add a dark-grey background on hover */
+}
+#loginbtn, #cancelbtn {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    width: 150px;
+    font-family: lato,sans-serif;
+    margin: 4px;
+}
+#loginbtn:hover, #cancelbtn:hover {
+    color: #fff;
+    background-color: #0dcda5;
+}
+/*---------footer-------*/
+.footer {
+    background-color: #414141;
+    width: 100%;
+    text-align: left;
+    font-family: lato,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.footer .footer-left, .footer .footer-center, .footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* footer left*/
+
+.footer .footer-left {
+    width: 33%;
+    padding-right: 15px;
+}
+
+.footer .about {
+    line-height: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer .about span {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .icons {
+    margin-top: 25px;
+}
+
+.footer .icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+/* footer center*/
+
+.footer .footer-center {
+    width: 30%;
+}
+
+.footer .footer-center i {
+    background-color: #33383b;
+    color: #fff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer .footer-center p {
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer .footer-center p a {
+    color: #09f;
+    text-decoration: none;
+}
+
+
+/* footer right*/
+
+.footer .footer-right {
+    width: 35%;
+}
+
+.footer h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer h2 span {
+    color: #09f;
+}
+
+.footer .menu {
+    color: #fff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer .menu a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer .menu a:hover {
+    color: #09f;
+}
+
+.footer .name {
+    color: #09f;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        font-size: 14px;
+    }
+    .footer .footer-left, .footer .footer-center, .footer .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer .footer-center i {
+        margin-left: 0;
+    }
+}
+#footer_w {
+    background-color: #414141;
+    width: 100%;
+    bottom: 0;
+    text-align: left;
+    font-family: lato,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px;
+    height: 260px;
+}
+
